@@ -456,15 +456,26 @@
   }
   
   .flex{
-    width: 87vw;
+    gap: 20rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
   }
 
 .magnitudes{
   color: white;
-  display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin: 21px;
+    & span{
+      padding: 20px;
+    }
 }
 
-  
+/* .image-map{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 57rem;
+    height: 41rem;
+  } */ 
