@@ -496,15 +496,16 @@ body.collapsed .expand-btn svg {
   width: 10vmax;
 }
 .login_btn{
-  height: 40px;
+  height: 30px;
+  padding: 0px;
   line-height: inherit;
   /* width: 110px; */
   /* width: fit-content; */
   /* border: 2px solid black; */
   border-radius: 9px;
   /* padding-left: 18px; */
-  font-size: 22px;
-  margin: auto;
+  font-size: 20px;
+  /* margin: auto; */
   cursor: pointer;
 }
 
