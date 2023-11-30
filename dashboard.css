@@ -21,13 +21,6 @@
   html {
     height: 100%;
   }
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    /* padding: 5px; */
-    width: 57rem;
-    height: 41rem;
-  }
   
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
   body {
@@ -455,8 +448,12 @@
     }
   }
   
+  .form-content{
+    display: flex;
+    color: white;
+  }
   .flex{
-    width: 87vw;
+    /* width: 87vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
