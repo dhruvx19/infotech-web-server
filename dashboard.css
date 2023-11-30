@@ -450,11 +450,33 @@
   
   .form-content{
     display: flex;
-    color: white;
+    /* color: white; */
+    height: 120px;
+    width: fit-content;
+    /* padding: 20px; */
+    
+    align-items: center;
+    & span{
+      background-color: #f4efef;
+      padding: 20px;
+      /* border: 1px solid black; */
+      border: 2px solid grey;
+    }
+    & label{
+      padding: 00px 20px 20px 20px;
+    }
+    & div{
+
+      padding: 20px 20px 0px 20px;
+      text-align: center;
+    }
+  }
+  .form-cont{
+    height: 200px;
   }
   .flex{
-    /* width: 87vw; */
     display: flex;
-    justify-content: space-between;
+    gap: 13rem;
     align-items: center;
+    
   }
