@@ -507,10 +507,9 @@ body.collapsed .expand-btn svg {
   cursor: pointer;
 } */
 .login_btn{
-  /* text-transform: uppercase; */
+
   width: 100px;
   height: 40px;
-  /* font-weight: 500; */
   color: #000;
   border: 2px solid #2d2b2b;
   background: #fff;
